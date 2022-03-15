@@ -1,0 +1,53 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+li a:hover:not(.active) {
+  background-color: #111111;
+}
+
+.active {
+  background-color: #111111;
+}
+body {
+  background-color: #033249;
+}
+.poza {
+  width: 500px;
+  height: 500px;
+}
+.persoana {
+  padding: 80px;
+  float: left;
+}
+.descriere {
+
+}
+p {
+  width: 800px;
+  border: 15px solid orange;
+  padding: 50px;
+  margin-left: 200px;
+  text-align: justify-all;
+  font-size: 240%;
+  font-family: timesnewroman;
+  color: white;
+}
+h3 {
+  text-align: center;
+  color: white;
+  font-family: timesnewroman;
+}
